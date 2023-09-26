@@ -1,0 +1,26 @@
+<ion-content [fullscreen]="true" class="fondo">
+
+<ion-item class="avatar">
+  <ion-avatar slot="start">
+    <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+  </ion-avatar>
+  <ion-label> Nombre profesor </ion-label>
+  <ion-button (click)="perfildocente()" color="warning" expand="block">Ver perfil</ion-button>
+</ion-item>
+
+
+
+
+<div class="titulo">Secciones</div>
+<div class="contenido">
+<ion-button color="warning" expand="full">001D</ion-button>  
+<ion-button color="warning" expand="full">002D</ion-button>  
+<ion-button color="warning" expand="full">003D</ion-button>  
+<ion-button color="warning" expand="full">004D</ion-button>  
+<ion-button color="warning" expand="full">005D</ion-button>  
+<ion-button color="warning" expand="full">006D</ion-button>  
+<ion-button color="warning" expand="full">007D</ion-button>  
+<ion-button color="warning" expand="full">008D</ion-button>  
+</div>
+<ion-button shape="round" class="perfil" (click)="qr()" color="warning" expand="block">Iniciar asistencia del día de hoy</ion-button>
+</ion-content>

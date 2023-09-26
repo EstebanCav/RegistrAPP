@@ -1,0 +1,31 @@
+<ion-content [fullscreen]="true" class="fondo">
+
+  <div class="label">
+    <ion-label class="yellow">Registr</ion-label>
+    <ion-label class="blue">App</ion-label>
+  </div>
+    <div class="correo">
+      <ion-input
+        label="Correo"
+        labelPlacement="stacked"
+        [clearOnEdit]="true"
+        placeholder="Nom.Apellido@profesor.duoc.cl"
+      >
+      </ion-input>
+    </div>
+    <div class="contra">
+      <ion-input
+        label="Contraseña"
+        labelPlacement="stacked"
+        type="password"
+        placeholder="*********"
+      >
+      </ion-input>
+    </div>
+    <div class="boton">
+      <ion-button expand="block" (click)="menudocente()" class="botonmenu2" color="warning" expand="full">Ingresar</ion-button>
+    </div>
+    <div class="recuperar">
+      <ion-button (click)="restablecerpass()" fill="clear">Olvidé mi contraseña</ion-button>
+    </div>
+</ion-content>

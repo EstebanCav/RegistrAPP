@@ -1,0 +1,60 @@
+.botonmenu1{
+    margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.titulo{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 50px;
+    font-style: oblique;
+    color: rgb(246, 214, 34);
+}
+
+
+
+.correo{
+    font-size: 19px;
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contra{
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size: 19px;
+    margin-right: 15px;
+}
+
+.boton{
+    margin-top: 15px;
+}
+
+.recuperar{
+    text-align: center;
+    margin-top: 15px;
+}
+.fondo{
+    --background: linear-gradient(45deg, #ffffff 50%, #0000fe 50%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+  margin: 0;
+}
+.label, .label2{
+    text-shadow: 0 0 1px black;
+    font-size: 250%;
+    display: flex;
+}
+.label .yellow, .label2 .yellow{
+    color: #f0a400;
+    margin-left: 95px;
+    margin-top: 30px;
+
+}
+.label .blue,.label2 .blue{
+    color: #002138;
+    margin-top: 30px;
+}

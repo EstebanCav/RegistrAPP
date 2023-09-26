@@ -1,0 +1,26 @@
+<ion-content [fullscreen]="true" class="fondo">
+
+<ion-item class="avatar">
+  <ion-avatar slot="start">
+    <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+  </ion-avatar>
+  <ion-label> Nombre alumno </ion-label>
+  <ion-button (click)="perfilalumno()" expend="block" color="warning"> Ver perfil</ion-button>
+</ion-item>
+
+<div class="titulo">Asignaturas y asistencia</div>
+<div class="contenido">
+<ion-button color="warning" expand="full">Programación de aplicaciones móviles 001D</ion-button>  
+<ion-button color="warning" expand="full">Técnicas de calidad de software 002D</ion-button>  
+<ion-button color="warning" expand="full">Fé cristiana 003D</ion-button>  
+<ion-button color="warning" expand="full">Ingles intermedio 004D</ion-button>  
+<ion-button color="warning" expand="full">Inteligencia de negocios 005D</ion-button>  
+<ion-button color="warning" expand="full">SQL aplicado 006D</ion-button> 
+</div>
+
+
+<ion-button shape="round" class="perfil" (click)="lectorqr()" expand="block" color="warning">Abrir cámara para escanear QR</ion-button>
+
+</ion-content>
+
+

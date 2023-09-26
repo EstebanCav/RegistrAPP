@@ -1,0 +1,20 @@
+
+<ion-content [fullscreen]="true" class="fondo">
+  
+
+  <div class="welcome">
+    <ion-title  class="color" >Bienvenido/a a RegistrAPP</ion-title> 
+    <div class="texto1" style="font-size: 20px;">La nueva forma de validar la asistencia de tus clases en Duoc UC</div>
+    <ion-title  class="color">{{ currentDateTime }}</ion-title> 
+  </div>
+
+  <ion-button expand="block" (click)="home()" class="boton1" color="warning">Ingresar</ion-button>
+
+  <footer>
+    <div class="logo">
+      <img src="./../../../assets/img/Logo_Duoc.png" alt="Logo Duoc">
+    </div>
+  </footer>
+
+  
+</ion-content>
